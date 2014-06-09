@@ -1,0 +1,8 @@
+-lib mo
+-lib klas
+-lib uhu
+-lib cmd
+-lib tappi
+-cp src
+-neko bin/ajou.n
+-main Librunner
