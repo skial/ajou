@@ -41,6 +41,7 @@ class Ajou {
 	}
 	
 	public function rework():Void {
+		#if tappi
 		Tappi.load();
 		
 		for (id in Tappi.classes.keys()) {
@@ -49,6 +50,7 @@ class Ajou {
 			if (cls.onSelector != null) selectors.push( cls.onSelector );
 			if (cls.onDeclaration != null) blocks.push( cls.onDeclaration );
 		}
+		#end
 		
 		tokens = tokens.map( function(t) return switch (t.token) {
 			case Keyword(x): 
