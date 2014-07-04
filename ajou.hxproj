@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\ajou.n" />
+    <movie path="run.n" />
     <movie fps="0" />
     <movie width="0" />
     <movie height="0" />
@@ -24,7 +24,7 @@
     <option noInlineOnDebug="False" />
     <option mainClass="Librunner" />
     <option enabledebug="False" />
-    <option additional="" />
+    <option additional="-dce no" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
@@ -50,8 +50,8 @@
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
-    <option testMovie="Custom" />
-    <option testMovieCommand="run.bat" />
+    <option testMovie="OpenDocument" />
+    <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage />

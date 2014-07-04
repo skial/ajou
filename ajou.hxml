@@ -4,5 +4,6 @@
 -lib cmd
 -lib tappi
 -cp src
--neko bin/ajou.n
+-neko run.n
 -main Librunner
+-dce no
